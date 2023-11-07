@@ -1,2 +1,3 @@
-<?php include('posts.php');
+<?php 
+include('posts.php');
 ?>
