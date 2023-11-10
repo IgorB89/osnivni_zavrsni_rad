@@ -22,6 +22,7 @@
                         </li>
                     </ul>
                 </div>
+                <button type="button" class="btn btn-default" id="toggleComments">Hide comments</button>
             </div>
         </div>
         <?php include('sidebar.php'); ?>

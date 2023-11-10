@@ -180,3 +180,7 @@ h3 a:hover {
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+
+.hidden-comments {
+    display: none;
+  }
