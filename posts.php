@@ -1,14 +1,16 @@
 <?php include('header.php') ?>
+
 <main role="main" class="container">
     <div class="row">
         <div class="col-sm-8 blog-main">
+
             <?php
             // First Blog Post
             ?>
             <div class="blog-post">
-            <h2 class="blog-post-title"><a href="#">Sample blog post</a></h2>
-                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
+            <h2 class="blog-post-title"><a href="#"><?php echo $post['title']; ?></a></h2>
+                <p class="blog-post-meta"><?php echo $post['created_at'] ?> by <a href="#"></a></p>
+                <?php echo $post['author'] ?>
                 <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
                 <hr>
                 <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -42,9 +44,9 @@
             // Second Blog Post
             ?>
             <div class="blog-post">
-            <h2 class="blog-post-title"><a href="#">Another blog post</a></h2>
-                <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
+            <h2 class="blog-post-title"><a href="#"><?php echo $post['title']; ?></a></h2>
+                <p class="blog-post-meta"><?php echo $post['created_at'] ?> by <a href="#"></a></p>
+                <?php echo $post['author'] ?>
                 <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
                 <blockquote>
                     <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -57,9 +59,9 @@
             // Third Blog Post
             ?>
             <div class="blog-post">
-            <h2 class="blog-post-title"><a href="#">New feature</a></h2>
-                <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
+            <h2 class="blog-post-title"><a href="#"><?php echo $post['title']; ?></a></h2>
+                <p class="blog-post-meta"><?php echo $post['created_at'] ?> by <a href="#"></a></p>
+                <?php echo $post['author'] ?>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                 <ul>
                     <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
